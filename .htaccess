@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !^/(dist)
+RewriteCond %{REQUEST_URI} !^/$
+RewriteCond %{REQUEST_URI} !\.(css|js|png|jpe?g|svg|ttf|woff|woff2|html|map)$
+RewriteRule . / [R=301,L]
+
+RewriteCond %{REQUEST_URI} !^/(dist)
+RewriteRule (.*) /dist/$1 [L]
