@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sserg1014/webpack-starter.git"
+    "url": "git://github.com/sserg1014/perfecky-verstka.git"
   },
   "scripts": {
     "build": "webpack --config build/webpack.build.config.js",
